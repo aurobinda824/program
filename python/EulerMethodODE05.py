@@ -12,7 +12,7 @@ def method(m,step,mass):
     return y
 
 m = 1 #mass
-h=0.001
+h=0.1
 x = np.arange(0,20,h)
 x_ = np.arange(0,-20,(-1)*h)
 
